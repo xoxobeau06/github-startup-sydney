@@ -14,6 +14,6 @@ Connect VS Code to your GitHub account so cloning, commit, and push work inside 
 8. Return to VS Code and confirm your GitHub account appears in the Accounts menu.
 
 ## Checklist
-- [ ] I installed the GitHub Pull Requests and Issues extension.
-- [ ] I signed VS Code into GitHub.
-- [ ] I can see my GitHub account in VS Code.
+- [X] I installed the GitHub Pull Requests and Issues extension.
+- [X] I signed VS Code into GitHub.
+- [X] I can see my GitHub account in VS Code.
