@@ -14,6 +14,6 @@ Set up the local folder where all your repositories will live, and install VS Co
 If you already have VS Code installed, skip to **Step 3**.
 
 ## Checklist
-- [ ] I created `Documents/GitHub`.
-- [ ] VS Code is installed.
-- [ ] VS Code is in Applications (macOS) or installed in Program Files (Windows).
+- [X] I created `Documents/GitHub`.
+- [X] VS Code is installed.
+- [X] VS Code is in Applications (macOS) or installed in Program Files (Windows).
