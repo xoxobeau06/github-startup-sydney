@@ -15,6 +15,6 @@ Do **not** click the green **Code** button for this step.
 If **Use this template** is missing, make sure you are signed in and using desktop layout.
 
 ## Checklist
-- [ ] I have a GitHub account.
-- [ ] I created my own `github-startup` repo from the template.
-- [ ] I can confirm `github-startup` is under my account.
+- [X] I have a GitHub account.
+- [X] I created my own `github-startup` repo from the template.
+- [X] I can confirm `github-startup` is under my account.
