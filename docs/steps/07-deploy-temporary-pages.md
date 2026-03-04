@@ -15,6 +15,6 @@ Deploy the included temporary `index.html` and confirm your deployment flow work
 9. Confirm the page says this is a temporary deployment/setup demo.
 
 ## Checklist
-- [ ] I enabled GitHub Pages for `github-startup`.
-- [ ] I opened the live URL.
-- [ ] I confirmed the temporary setup page is live.
+- [X] I enabled GitHub Pages for `github-startup`.
+- [X] I opened the live URL.
+- [X] I confirmed the temporary setup page is live.
