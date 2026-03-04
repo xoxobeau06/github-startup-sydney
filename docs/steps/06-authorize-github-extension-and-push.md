@@ -26,8 +26,8 @@ Make sure VS Code GitHub authentication is complete, then perform your first suc
   - `gh auth login`
 
 ## Checklist
-- [ ] I confirmed GitHub sign-in from the VS Code **Accounts** menu.
-- [ ] I committed and pushed from VS Code.
-- [ ] I completed any first-push browser authorization prompt.
-- [ ] I confirmed the pushed change on github.com.
-- [ ] I know the credential helper fix if auth fails.
+- [X] I confirmed GitHub sign-in from the VS Code **Accounts** menu.
+- [X] I committed and pushed from VS Code.
+- [X] I completed any first-push browser authorization prompt.
+- [X] I confirmed the pushed change on github.com.
+- [X] I know the credential helper fix if auth fails.
