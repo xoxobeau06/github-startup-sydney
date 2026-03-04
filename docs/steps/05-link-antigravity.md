@@ -12,6 +12,6 @@ Open the same local repo folder in Antigravity.
 6. Confirm Antigravity can see files such as `README.md` and `index.html`.
 
 ## Checklist
-- [ ] Antigravity is installed and opens.
-- [ ] Antigravity can access `Documents/GitHub/github-startup`.
-- [ ] I can see repo files inside Antigravity.
+- [X] Antigravity is installed and opens.
+- [X] Antigravity can access `Documents/GitHub/github-startup`.
+- [X] I can see repo files inside Antigravity.
