@@ -19,7 +19,7 @@ Clone your `github-startup` repository into `Documents/GitHub` using VS Code onl
 Note: VS Code may suggest recommended extensions. You can click **Install** now. If you skipped the GitHub extension earlier, complete Step 3 before continuing.
 
 ## Checklist
-- [ ] I opened Source Control in VS Code.
-- [ ] I cloned `github-startup` from GitHub.
-- [ ] I saved it in `Documents/GitHub`.
-- [ ] I opened and trusted the cloned folder.
+- [X] I opened Source Control in VS Code.
+- [X] I cloned `github-startup` from GitHub.
+- [X] I saved it in `Documents/GitHub`.
+- [X] I opened and trusted the cloned folder.
