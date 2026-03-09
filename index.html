@@ -1,25 +1,911 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Setup Complete - Temporary Deployment</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <main class="wrap">
-    <p class="label">GitHub Starter Tutorial</p>
-    <h1>Congratulations. You successfully completed setup.</h1>
-    <p>
-      This is a temporary file used to demonstrate the GitHub Pages deployment process.
-    </p>
-    <p>
-      In AI-assisted development, this is your smoke test: prove your repo, local workflow,
-      and deployment path are working before you start building the real project.
-    </p>
-    <p>
-      Next step: replace this page with your Personal Dashboard or Project #5 files.
-    </p>
-  </main>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSML - Community Services of Moses Lake</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <!-- Header -->
+      <header class="header">
+        <a href="#home" class="logo">CSML<span>.</span></a>
+
+        <nav class="desktop-nav">
+          <ul>
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#get-help" class="nav-link">Get Help</a></li>
+            <li><a href="#volunteer" class="nav-link">Volunteer</a></li>
+            <li><a href="#donate" class="nav-link">Donate</a></li>
+            <li><a href="#events" class="nav-link">Events</a></li>
+            <li><a href="#staff" class="nav-link">Staff</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <button class="hamburger" id="hamburger-btn" aria-label="Menu">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </header>
+
+      <!-- Dynamic Content Area -->
+      <main id="main-content">
+        <!-- 1. HOME -->
+        <section id="home" class="page active">
+          <div class="hero">
+            <div class="hero-content">
+              <h1>Fighting Hunger <br />in Our Community.</h1>
+              <p class="subtitle">
+                Community Services of Moses Lake believes everyone should have
+                access to food. It is a basic human right.
+              </p>
+
+              <div class="hero-actions">
+                <a href="#get-help" class="btn btn-primary">Get Help Now</a>
+                <a href="#donate" class="btn btn-secondary">Make a Donation</a>
+              </div>
+            </div>
+            <div class="hero-image-wrapper">
+              <img
+                src="assets/csml_hero_image_1772869864859.png"
+                alt="Fresh farm produce passing between hands"
+              />
+              <div class="hero-badge">
+                <div class="number">33k</div>
+                <div class="text">Families Served<br />Last Year</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-3">
+            <div class="card">
+              <h3 class="card-title">The Moses Lake Food Pantry</h3>
+              <p>
+                We provide emergency supplemental food on a weekly basis, with
+                exceptions for the homeless, disaster victims, and special
+                situations.
+              </p>
+            </div>
+            <div class="card">
+              <h3 class="card-title">Zero Cost</h3>
+              <p>
+                We never charge for food or any other service we offer. More
+                than half of the people receiving food from us are children and
+                seniors.
+              </p>
+            </div>
+            <div class="card">
+              <h3 class="card-title">Extended Reach</h3>
+              <p>
+                We distribute food to an additional 47 pantries across six
+                counties. We are here when you need us.
+              </p>
+              <a href="#" style="font-weight: 600">View Pantry Map &rarr;</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- 2. ABOUT -->
+        <section id="about" class="page">
+          <h2>Our Mission</h2>
+          <div class="card" style="margin-bottom: 3rem">
+            <p
+              style="
+                font-size: 1.25rem;
+                color: var(--text-main);
+                line-height: 1.8;
+              "
+            >
+              Community Services of Moses Lake believes everyone should have
+              access to food. It is a basic human right. Every person should
+              have the opportunity to reach their full potential and live
+              vibrant, productive lives &ndash; nutritious food is essential to
+              success. Community Services of Moses Lake is inclusive of
+              everyone, regardless of race, age, gender, family or immigration
+              status, ability, how they worship, or who they love. We believe in
+              an inclusive work environment where employees are welcomed, valued
+              and respected. We believe that employees will be provided a safe
+              work environment. We believe that diversity brings strength. We
+              believe in equality of opportunity free from discrimination.
+            </p>
+          </div>
+
+          <h2>Donors & Sponsors</h2>
+          <div class="grid-2">
+            <div class="card">
+              <h3 class="card-title">M. J. Murdock Charitable Trust</h3>
+              <p>
+                CSML is proudly supported by the M.J. Murdock Charitable Trust.
+                This trust, created by the will of the late Melvin J. (Jack)
+                Murdock, provides grants to nonprofit organizations in five
+                states of the Pacific Northwest—Alaska, Idaho, Montana, Oregon,
+                and Washington—that seek to strengthen the region’s educational,
+                social, spiritual, and cultural base in creative and sustainable
+                ways.
+              </p>
+            </div>
+            <div class="card">
+              <h3 class="card-title">Marchand Charitable Trust</h3>
+              <p>
+                C. A. (Marc) Marchand was involved in City of Moses Lake
+                projects for many years until starting Marchand Construction in
+                1964. Many local infrastructure projects were constructed by
+                Marchand Construction. His legacy is represented by the
+                two-toned green buildings situated on the land that was donated
+                by the Marchand Charitable Trust.
+              </p>
+            </div>
+          </div>
+
+          <div class="card" style="margin-top: 2rem">
+            <h3 class="card-title">In Remembrance: Peny Archer</h3>
+            <p>
+              Founding member of the food bank and driving force behind the
+              Moses Lake Food Distribution Center. For Peny, the food bank was a
+              big part of her life. Even as she battled terminal illness, she
+              was at the food bank promoting drives and ensuring people
+              understood the need. She built the beautiful operation that
+              services 48 pantries across central and eastern Washington. Peny,
+              you've truly made a positive difference and will be greatly
+              missed.
+            </p>
+          </div>
+
+          <div class="card" style="margin-top: 2rem">
+            <h3 class="card-title">Additional Supporters</h3>
+            <p>
+              We are so very thankful for the broad support of our community!
+              Local farmers, food processing plants, corporations, professional
+              organizations, churches, service clubs, businesses, and numerous
+              unnamed individuals.
+            </p>
+            <ul
+              style="
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                gap: 0.5rem;
+                margin-top: 1rem;
+              "
+            >
+              <li>REC Silicon</li>
+              <li>Grant County Potato Commission</li>
+              <li>Columbia Basin Herald</li>
+              <li>Moses Lake Classic Car Club</li>
+              <li>Lioness Club of Moses Lake</li>
+              <li>Unchained Brotherhood</li>
+              <li>People for People</li>
+              <li>Moses Lake High School Key Club</li>
+              <li>Moses Lake Christian Academy</li>
+              <li>Moses Lake Seventh Day Adventists</li>
+              <li>Sunderland Foundation</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 3. GET HELP -->
+        <section id="get-help" class="page">
+          <h2>Get Help</h2>
+          <p>
+            To qualify for help from the food bank, your income must be below
+            the amounts in the following table. You can qualify by
+            self-declaration using our Membership Card Application. Cards must
+            be renewed each year starting January 1st.
+          </p>
+
+          <div
+            class="card"
+            style="
+              margin-bottom: 2rem;
+              border-left: 4px solid var(--secondary-color);
+            "
+          >
+            <h3 class="card-title" style="margin-bottom: 0.5rem">
+              Hours of Operation
+            </h3>
+            <p>
+              <strong>Open to public for food pick-up:</strong> Mon-Thurs, 11:00
+              a.m. to 2:45 p.m.
+            </p>
+            <p>
+              When you’ve been approved, we’ll email you a PDF of your
+              membership card. No printer or smartphone? No problem! We can
+              print it off for you if you visit our office.
+            </p>
+          </div>
+
+          <table class="premium-table">
+            <thead>
+              <tr>
+                <th>Household Size</th>
+                <th>Monthly Income Limit</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1 person</td>
+                <td>$2,608</td>
+              </tr>
+              <tr>
+                <td>2 people</td>
+                <td>$3,525</td>
+              </tr>
+              <tr>
+                <td>3 people</td>
+                <td>$4,442</td>
+              </tr>
+              <tr>
+                <td>4 people</td>
+                <td>$5,358</td>
+              </tr>
+              <tr>
+                <td>5 people</td>
+                <td>$6,275</td>
+              </tr>
+              <tr>
+                <td>6 people</td>
+                <td>$7,192</td>
+              </tr>
+              <tr>
+                <td>Each additional person</td>
+                <td>add $917</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3 style="margin: 2rem 0 1rem; color: var(--primary-color)">
+            Apply for a General Membership Card
+          </h3>
+          <form
+            class="card"
+            onsubmit="
+              event.preventDefault();
+              alert('Application Submitted!');
+            "
+          >
+            <div class="grid-2" style="margin-top: 0">
+              <div class="form-group">
+                <label class="form-label">First and Last Name *</label>
+                <input type="text" class="form-control" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label">Age *</label>
+                <input type="number" class="form-control" required />
+              </div>
+            </div>
+            <div class="grid-2" style="margin-top: 0">
+              <div class="form-group">
+                <label class="form-label"
+                  >Number of other household members *</label
+                >
+                <input type="number" class="form-control" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label">Ages of household members</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="e.g. 5, 8, 35"
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label"
+                >Is your income less than the limit for your household size?
+                *</label
+              >
+              <select class="form-control" required>
+                <option value="">Select an option</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label"
+                >General location where you're staying</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Street address or 'inside/outside city limits'"
+              />
+            </div>
+            <div class="grid-2" style="margin-top: 0">
+              <div class="form-group">
+                <label class="form-label">Phone Number</label>
+                <input type="tel" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label class="form-label">Email Address</label>
+                <input type="email" class="form-control" />
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              Submit Application
+            </button>
+          </form>
+
+          <h3 style="margin: 3rem 0 1rem; color: var(--primary-color)">
+            Commodity Supplemental Food Program (CSFP)
+          </h3>
+          <div class="card">
+            <p>
+              Once per month, we distribute additional food to seniors who meet
+              government guidelines in Moses Lake, Ephrata, Soap Lake, Grand
+              Coulee, Othello, Selah, Kennewick, Richland, Benton City, and 11
+              sites in Whitman County. Seniors age 60 and over may apply for
+              CSFP by completing an application available at the participating
+              food bank lobby.
+            </p>
+          </div>
+        </section>
+
+        <!-- 4. VOLUNTEER -->
+        <section id="volunteer" class="page">
+          <div class="hero" style="margin-bottom: 3rem">
+            <div class="hero-content">
+              <h2>Giving Your Time</h2>
+              <p style="font-size: 1.1rem; color: var(--text-main)">
+                Because of volunteers, we can operate with only 10 full-time and
+                1 part-time employees. This keeps our administrative costs to
+                about 2%.
+              </p>
+              <p>
+                Wonderful people donate their time unselfishly to keep our
+                operations running smoothly. We love them, and we thank them for
+                all they do. We are open from
+                <strong>8 a.m. to 2:45 p.m. Monday through Thursday</strong> for
+                volunteer opportunities.
+              </p>
+            </div>
+            <div class="image-card" style="margin: 0; height: 100%">
+              <img
+                src="assets/csml_volunteers_1772869877982.png"
+                alt="Volunteers in warehouse"
+              />
+            </div>
+          </div>
+
+          <div class="grid-2">
+            <div class="card">
+              <h3 class="card-title">What Volunteers Do</h3>
+              <ul>
+                <li>Sort food in the warehouse</li>
+                <li>Box goods for distribution</li>
+                <li>Bag product</li>
+                <li>Greet clients and scan cards</li>
+                <li>Hand out food</li>
+                <li>Pick up goods from local stores ("breadrunning")</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3 class="card-title">Volunteer Sign Up</h3>
+              <p>
+                If you’re interested in volunteering, please call us at
+                <strong>509-765-8101</strong> or fill out the form below.
+              </p>
+
+              <form
+                onsubmit="
+                  event.preventDefault();
+                  alert('Sign up sent!');
+                "
+                style="margin-top: 1rem"
+              >
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="First and last name *"
+                    required
+                  />
+                </div>
+                <div
+                  class="grid-2"
+                  style="margin-top: 0; gap: 1rem; margin-bottom: 1.5rem"
+                >
+                  <input
+                    type="number"
+                    class="form-control"
+                    placeholder="Age *"
+                    required
+                  />
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email *"
+                    required
+                  />
+                </div>
+                <div
+                  class="grid-2"
+                  style="margin-top: 0; gap: 1rem; margin-bottom: 1.5rem"
+                >
+                  <input type="tel" class="form-control" placeholder="Phone" />
+                  <select class="form-control">
+                    <option>Prefer calls or texts?</option>
+                    <option>Calls</option>
+                    <option>Texts</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" style="font-weight: normal"
+                    >Are you able to lift/move 25-30 lbs? *</label
+                  >
+                  <select class="form-control" required>
+                    <option value="">Select option</option>
+                    <option>Yes</option>
+                    <option>No</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Availability for first shift (2-hr blocks 8am-2:45pm M-Th)"
+                  />
+                </div>
+                <button type="submit" class="btn btn-secondary btn-full">
+                  Sign Up to Volunteer
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <!-- 5. DONATE -->
+        <section id="donate" class="page">
+          <h2>Make Donations</h2>
+          <p>
+            We welcome and encourage your financial support in our efforts to
+            feed and help those in need. CSML is an IRS registered 501(c)(3)
+            organization. Donations are tax deductible.
+          </p>
+
+          <div class="grid-2">
+            <div
+              class="card"
+              style="
+                background-color: var(--primary-color);
+                color: var(--white);
+              "
+            >
+              <h3 class="card-title" style="color: var(--accent-color)">
+                Financial Contributions
+              </h3>
+              <p style="color: rgba(255, 255, 255, 0.9)">
+                Your money helps us qualify for matching grants, pay for special
+                needs food (baby formula, ready-to-eat boxes), support daily
+                feeding programs, and cover site improvements.
+              </p>
+              <a
+                href="https://donatekindly.org"
+                target="_blank"
+                class="btn btn-accent btn-full"
+                style="margin-top: 1rem; border: none; font-size: 1.25rem"
+                >Donate Online via DonateKindly</a
+              >
+              <p
+                style="
+                  color: rgba(255, 255, 255, 0.7);
+                  font-size: 0.9rem;
+                  text-align: center;
+                  margin-top: 1rem;
+                "
+              >
+                Or mail checks to:<br />CSML, PO Box 683, Moses Lake, WA 98837
+              </p>
+            </div>
+
+            <div class="card">
+              <h3 class="card-title">Food & Product Donations</h3>
+              <p>
+                We accept donations from 8 a.m. to 2:45 p.m. Monday through
+                Thursday.
+              </p>
+              <div class="grid-2" style="gap: 1rem; margin-top: 1rem">
+                <div>
+                  <strong>We Accept:</strong>
+                  <ul>
+                    <li>Fresh & Canned goods</li>
+                    <li>Hygiene products</li>
+                    <li>Bulk foods</li>
+                    <li>Refrig/Frozen (call ahead)</li>
+                  </ul>
+                </div>
+                <div>
+                  <strong>We Do NOT Accept:</strong>
+                  <ul style="color: #bc4749">
+                    <li>Recalled goods</li>
+                    <li>Homemade goods</li>
+                    <li>Opened goods</li>
+                    <li>Expired past sell-by date</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 6. EVENTS -->
+        <section id="events" class="page">
+          <h2>Upcoming Events</h2>
+          <div class="grid-2">
+            <div class="card">
+              <div
+                class="card-title"
+                style="color: var(--secondary-color); font-size: 1.8rem"
+              >
+                Thanksgiving Turkey Drive
+              </div>
+              <p>
+                Every year, CSML sponsors a turkey drive for all clients that
+                have a current membership card. Clients may drive to the
+                distribution center and receive a free turkey or chicken with a
+                box containing standard Thanksgiving meal items such as
+                stuffing, potatoes, green beans, etc.
+              </p>
+              <p>
+                <em
+                  >Stay tuned for this year’s donation dates and pick-up
+                  date.</em
+                >
+              </p>
+            </div>
+            <div class="card">
+              <div
+                class="card-title"
+                style="color: var(--secondary-color); font-size: 1.8rem"
+              >
+                Holiday Toy Drive
+              </div>
+              <p>
+                Our annual toy drive happens each year during November and
+                December. Toys are generally distributed the week of Christmas.
+                Last year, we were able to provide Christmas gifts to over 300
+                children!
+              </p>
+              <p><em>Stay tuned for this year’s dates.</em></p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 7. STAFF -->
+        <section id="staff" class="page">
+          <h2>Board of Directors</h2>
+          <p>
+            Central to the operation of CSML is our Board of Directors. These
+            diverse yet like-minded individuals bring collective wisdom to
+            effectively guide our organization.
+          </p>
+
+          <div class="staff-grid" style="margin-bottom: 4rem">
+            <div class="staff-member">
+              <div class="staff-role">President</div>
+              <h3 style="margin: 0.5rem 0">Christina Hansen</h3>
+              <p style="font-size: 0.9rem">
+                Elected Feb 2014. Dedicated volunteer since 2010. Former
+                bookkeeper.
+              </p>
+            </div>
+            <div class="staff-member">
+              <div class="staff-role">Director</div>
+              <h3 style="margin: 0.5rem 0">Shelly Detrick</h3>
+              <p style="font-size: 0.9rem">
+                VP at Washington Trust Bank. Past President Habitat for Humanity
+                Moses Lake.
+              </p>
+            </div>
+            <div class="staff-member">
+              <div class="staff-role">Sec & Treasurer</div>
+              <h3 style="margin: 0.5rem 0">Stroud Kunkle</h3>
+              <p style="font-size: 0.9rem">
+                CPA for 33 years. Board member since 1994. Rotary Club member.
+              </p>
+            </div>
+            <div class="staff-member">
+              <div class="staff-role">Board Member</div>
+              <h3 style="margin: 0.5rem 0">Tom Chaplin</h3>
+              <p style="font-size: 0.9rem">
+                President of CSML 2010-2017. Former Farmers Insurance Agency
+                owner.
+              </p>
+            </div>
+            <div class="staff-member">
+              <div class="staff-role">Board Member</div>
+              <h3 style="margin: 0.5rem 0">Michael Glen Earl</h3>
+              <p style="font-size: 0.9rem">
+                Founding partner of Earl and Edwards, PLLC. Fluent in Spanish.
+              </p>
+            </div>
+          </div>
+
+          <h2>Management & Staff</h2>
+          <p>
+            CSML has key management positions working in concert to guide and
+            manage all aspects of our company.
+          </p>
+
+          <div class="staff-grid">
+            <div class="staff-member">
+              <div class="staff-role">Administrative Manager</div>
+              <h3 style="margin: 0.5rem 0; font-size: 1.2rem">Lane Storwick</h3>
+            </div>
+            <div class="staff-member">
+              <div class="staff-role">Operations Manager</div>
+              <h3 style="margin: 0.5rem 0; font-size: 1.2rem">
+                Jim Gantenbien
+              </h3>
+            </div>
+            <div class="staff-member">
+              <div class="staff-role">Operations Support</div>
+              <h3 style="margin: 0.5rem 0; font-size: 1.2rem">Angie Moore</h3>
+            </div>
+            <div class="staff-member">
+              <div class="staff-role">Driver / Warehouse</div>
+              <h3 style="margin: 0.5rem 0; font-size: 1.2rem">Tyson Carlos</h3>
+            </div>
+            <div class="staff-member">
+              <div class="staff-role">Intake Lead / Accountant</div>
+              <h3 style="margin: 0.5rem 0; font-size: 1.2rem">Joanne Herzog</h3>
+            </div>
+            <div class="staff-member">
+              <div class="staff-role">Driver / Warehouse</div>
+              <h3 style="margin: 0.5rem 0; font-size: 1.2rem">Andrew Matson</h3>
+            </div>
+            <div
+              class="staff-member"
+              style="background-color: var(--accent-light)"
+            >
+              <div class="staff-role">Warehouse Juggler & Fashion Icon</div>
+              <h3
+                style="
+                  margin: 0.5rem 0;
+                  font-size: 1.2rem;
+                  color: var(--primary-color);
+                "
+              >
+                John Holland
+              </h3>
+            </div>
+          </div>
+        </section>
+
+        <!-- 8. CONTACT -->
+        <section id="contact" class="page">
+          <h2>Contact Us</h2>
+          <div class="grid-2">
+            <div class="card">
+              <h3 class="card-title">Information</h3>
+              <p>
+                <strong>Phone:</strong>
+                <a href="tel:509-765-8101">(509) 765-8101</a>
+              </p>
+              <p><strong>Fax:</strong> (509) 765-7277</p>
+              <p>
+                <strong>Email:</strong>
+                <a href="mailto:CSML@mlfood.org">CSML@mlfood.org</a>
+              </p>
+
+              <h4
+                style="
+                  margin-top: 1.5rem;
+                  font-size: 1.1rem;
+                  color: var(--text-main);
+                "
+              >
+                Hours
+              </h4>
+              <p>
+                <strong>Food Pick-up:</strong> Mon-Thurs 11:00 am - 2:45 pm<br />
+                <strong>Office Hours:</strong> Mon-Thurs 7:30 am - 3:00 pm
+              </p>
+
+              <h4
+                style="
+                  margin-top: 1.5rem;
+                  font-size: 1.1rem;
+                  color: var(--text-main);
+                "
+              >
+                Mailing Address
+              </h4>
+              <p>CSML<br />PO Box 683<br />Moses Lake, WA 98837</p>
+
+              <h4
+                style="
+                  margin-top: 1.5rem;
+                  font-size: 1.1rem;
+                  color: var(--text-main);
+                "
+              >
+                Getting Here
+              </h4>
+              <p>
+                GTA bus stop on nearest street corner.<br />People for People
+                has a dedicated time slot. Call 2-1-1.
+              </p>
+            </div>
+
+            <div>
+              <div class="image-card" style="height: 250px">
+                <img
+                  src="assets/csml_warehouse_exterior_1772869889424.png"
+                  alt="CSML Warehouse from the road"
+                />
+              </div>
+              <div class="card">
+                <h3 class="card-title">Physical Address</h3>
+                <p>
+                  <strong>9299 Beacon Rd NE<br />Moses Lake, WA 98837</strong>
+                </p>
+                <p>
+                  <strong>Directions from I-90 (Exit 179):</strong><br />
+                  - Head north toward SR-17 (1.1 mi)<br />
+                  - Slight right to stay on SR-17 N (3.8 mi)<br />
+                  - Turn right onto Grape Dr NE at the roundabout<br />
+                  - Turn right onto Beacon Rd NE<br />
+                  <em
+                    >Destination will be on the right. It’s a large green
+                    warehouse across the highway from Home Depot.</em
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer>
+        <div class="footer-content">
+          <div>
+            <h3>CSML</h3>
+            <p>
+              Community Services of Moses Lake believes everyone should have
+              access to food. It is a basic human right.
+            </p>
+          </div>
+          <div class="footer-links">
+            <h3 style="font-size: 1.2rem">Quick Links</h3>
+            <a href="#home">Home</a>
+            <a href="#volunteer">Volunteer</a>
+            <a href="#donate">Donate</a>
+            <a href="#get-help">Get Help</a>
+          </div>
+          <div>
+            <h3 style="font-size: 1.2rem">Contact</h3>
+            <p>
+              PO Box 683, Moses Lake, WA 98837<br />
+              (509) 765-8101<br />
+              CSML@mlfood.org
+            </p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          &copy; 2024 Community Services of Moses Lake. A 501(c)(3) nonprofit.
+          USDA is an equal opportunity provider, employer, and lender.
+        </div>
+      </footer>
+    </div>
+
+    <!-- Mobile Navigation Overlay -->
+    <div class="overlay" id="overlay"></div>
+    <div class="nav-menu" id="nav-menu">
+      <button class="close-btn" id="close-btn" aria-label="Close menu">
+        &times;
+      </button>
+      <ul>
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#get-help" class="nav-link">Get Help</a></li>
+        <li><a href="#volunteer" class="nav-link">Volunteer</a></li>
+        <li><a href="#donate" class="nav-link">Donate</a></li>
+        <li><a href="#events" class="nav-link">Events</a></li>
+        <li><a href="#staff" class="nav-link">Staff</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Navigation JS -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const hamburgerBtn = document.getElementById("hamburger-btn");
+        const closeBtn = document.getElementById("close-btn");
+        const navMenu = document.getElementById("nav-menu");
+        const overlay = document.getElementById("overlay");
+        const allLinks = document.querySelectorAll(
+          '.nav-link, .btn[href^="#"], .logo, a[href^="#"]',
+        );
+        const pages = document.querySelectorAll(".page");
+        const desktopNavLinks = document.querySelectorAll(
+          ".desktop-nav .nav-link",
+        );
+
+        function toggleMenu() {
+          navMenu.classList.toggle("open");
+          overlay.classList.toggle("show");
+          document.body.style.overflow = navMenu.classList.contains("open")
+            ? "hidden"
+            : "";
+        }
+
+        hamburgerBtn.addEventListener("click", toggleMenu);
+        closeBtn.addEventListener("click", toggleMenu);
+        overlay.addEventListener("click", toggleMenu);
+
+        function updateDesktopNav(targetId) {
+          desktopNavLinks.forEach((link) => {
+            link.classList.remove("active");
+            if (link.getAttribute("href") === "#" + targetId) {
+              link.classList.add("active");
+            }
+          });
+        }
+
+        function navigateTo(targetId) {
+          // Ensure target page shows
+          let foundPage = false;
+          pages.forEach((page) => {
+            if (page.id === targetId) {
+              page.classList.add("active");
+              foundPage = true;
+            } else {
+              page.classList.remove("active");
+            }
+          });
+
+          if (foundPage) {
+            updateDesktopNav(targetId);
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          }
+        }
+
+        // Handle anchor link clicks
+        allLinks.forEach((link) => {
+          link.addEventListener("click", (e) => {
+            const href = link.getAttribute("href");
+            if (href && href.startsWith("#") && href.length > 1) {
+              e.preventDefault();
+              const targetId = href.substring(1);
+              navigateTo(targetId);
+              if (navMenu.classList.contains("open")) {
+                toggleMenu();
+              }
+              history.pushState(null, "", href);
+            }
+          });
+        });
+
+        // Handle hash on load
+        if (window.location.hash) {
+          const targetId = window.location.hash.substring(1);
+          navigateTo(targetId);
+        }
+
+        // Handle browser back button
+        window.addEventListener("popstate", () => {
+          if (window.location.hash) {
+            navigateTo(window.location.hash.substring(1));
+          } else {
+            navigateTo("home");
+          }
+        });
+      });
+    </script>
+  </body>
 </html>
